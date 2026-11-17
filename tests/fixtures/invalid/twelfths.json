@@ -1,0 +1,36 @@
+{
+  "type": "layout",
+  "version": "5.0.43",
+  "props": [],
+  "children": [
+    {
+      "name": "S",
+      "type": "section",
+      "props": {},
+      "children": [
+        {
+          "type": "row",
+          "props": {
+            "layout": "5-12,7-12"
+          },
+          "children": [
+            {
+              "type": "column",
+              "props": {
+                "width_medium": "5-12"
+              },
+              "children": [
+                {
+                  "type": "headline",
+                  "props": {
+                    "content": "Hi"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

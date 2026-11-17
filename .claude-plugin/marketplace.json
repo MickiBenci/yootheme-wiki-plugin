@@ -1,0 +1,20 @@
+{
+  "name": "yootheme-wiki",
+  "owner": {
+    "name": "MickiBenci",
+    "url": "https://github.com/MickiBenci"
+  },
+  "metadata": {
+    "description": "Claude Code plugin for YOOtheme Pro builder JSON generation and validation."
+  },
+  "plugins": [
+    {
+      "name": "yootheme-wiki",
+      "source": "./",
+      "description": "Generate importable YOOtheme Pro builder JSON (layouts, single elements, Customizer styles) from a verified knowledge base, and validate it before import.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": ["yootheme", "uikit", "page-builder"]
+    }
+  ]
+}

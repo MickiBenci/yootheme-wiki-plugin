@@ -1,0 +1,117 @@
+{
+  "type": "layout",
+  "version": "5.0.43",
+  "name": "Grid Slide Up",
+  "modified": "2026-11-17T00:00:00.000Z",
+  "props": [],
+  "children": [
+    {
+      "type": "section",
+      "props": {
+        "style": "",
+        "padding_top": "large",
+        "padding_bottom": "large",
+        "width": "default",
+        "animation": "slide-bottom-small",
+        "animation_delay": "150"
+      },
+      "children": [
+        {
+          "type": "row",
+          "props": {
+            "layout": ""
+          },
+          "children": [
+            {
+              "type": "column",
+              "props": {
+                "text_align": "center"
+              },
+              "children": [
+                {
+                  "type": "headline",
+                  "props": {
+                    "content": "Our services",
+                    "title_element": "h2",
+                    "title_style": "h2",
+                    "margin": "medium"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "props": {
+            "layout": "1-3,1-3,1-3|1-2,1-2,1-2",
+            "column_gap": "medium",
+            "row_gap": "medium"
+          },
+          "children": [
+            {
+              "type": "column",
+              "props": {
+                "width_medium": "1-3",
+                "width_small": "1-2"
+              },
+              "children": [
+                {
+                  "type": "panel",
+                  "props": {
+                    "title": "Service One",
+                    "content": "<p>A short description of the first service.</p>",
+                    "style": "default",
+                    "link": "#",
+                    "image": "wp-content/uploads/service-1.jpg",
+                    "item_animation": true
+                  }
+                }
+              ]
+            },
+            {
+              "type": "column",
+              "props": {
+                "width_medium": "1-3",
+                "width_small": "1-2"
+              },
+              "children": [
+                {
+                  "type": "panel",
+                  "props": {
+                    "title": "Service Two",
+                    "content": "<p>A short description of the second service.</p>",
+                    "style": "default",
+                    "link": "#",
+                    "image": "wp-content/uploads/service-2.jpg",
+                    "item_animation": true
+                  }
+                }
+              ]
+            },
+            {
+              "type": "column",
+              "props": {
+                "width_medium": "1-3",
+                "width_small": "1-2"
+              },
+              "children": [
+                {
+                  "type": "panel",
+                  "props": {
+                    "title": "Service Three",
+                    "content": "<p>A short description of the third service.</p>",
+                    "style": "default",
+                    "link": "#",
+                    "image": "wp-content/uploads/service-3.jpg",
+                    "item_animation": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

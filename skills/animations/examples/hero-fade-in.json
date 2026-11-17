@@ -1,0 +1,82 @@
+{
+  "type": "layout",
+  "version": "5.0.43",
+  "name": "Hero Fade In",
+  "modified": "2026-11-17T00:00:00.000Z",
+  "props": [],
+  "children": [
+    {
+      "type": "section",
+      "props": {
+        "style": "default",
+        "padding_top": "xlarge",
+        "padding_bottom": "xlarge",
+        "width": "default",
+        "image": "wp-content/uploads/hero-bg.jpg",
+        "animation": "fade",
+        "animation_delay": "150"
+      },
+      "children": [
+        {
+          "type": "row",
+          "props": {
+            "layout": "",
+            "vertical_align": "middle"
+          },
+          "children": [
+            {
+              "type": "column",
+              "props": {
+                "vertical_align": "middle",
+                "text_align": "center"
+              },
+              "children": [
+                {
+                  "type": "headline",
+                  "props": {
+                    "content": "Your main headline",
+                    "title_element": "h1",
+                    "title_style": "h1",
+                    "margin": "small"
+                  }
+                },
+                {
+                  "type": "text",
+                  "props": {
+                    "content": "<p>A descriptive subtitle that supports the main headline.</p>",
+                    "text_style": "lead",
+                    "margin": "medium"
+                  }
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "margin": "medium"
+                  },
+                  "children": [
+                    {
+                      "type": "button_item",
+                      "props": {
+                        "content": "Learn more",
+                        "button_style": "primary",
+                        "link": "#"
+                      }
+                    },
+                    {
+                      "type": "button_item",
+                      "props": {
+                        "content": "Contact us",
+                        "button_style": "default",
+                        "link": "#contact"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "type": "layout",
+  "version": "5.0.43",
+  "name": "Parallax Section",
+  "modified": "2026-11-17T00:00:00.000Z",
+  "props": [],
+  "children": [
+    {
+      "type": "section",
+      "props": {
+        "style": "",
+        "padding_top": "xlarge",
+        "padding_bottom": "xlarge",
+        "width": "default",
+        "image": "wp-content/uploads/bg-parallax.jpg",
+        "image_effect": "parallax",
+        "image_parallax_bgy": "-200,200",
+        "image_parallax_easing": "0",
+        "image_parallax_breakpoint": "m"
+      },
+      "children": [
+        {
+          "type": "row",
+          "props": {
+            "layout": "1-2,1-2",
+            "vertical_align": "middle",
+            "column_gap": "large"
+          },
+          "children": [
+            {
+              "type": "column",
+              "props": {
+                "vertical_align": "middle",
+                "width_medium": "1-2"
+              },
+              "children": [
+                {
+                  "type": "headline",
+                  "props": {
+                    "content": "About us",
+                    "title_element": "h2",
+                    "title_style": "h2",
+                    "margin": "small"
+                  }
+                },
+                {
+                  "type": "text",
+                  "props": {
+                    "content": "<p>Descriptive copy for a section with a parallax background. The content stays put while the background image scrolls at a different speed.</p>",
+                    "margin": "medium"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "column",
+              "props": {
+                "vertical_align": "middle",
+                "width_medium": "1-2"
+              },
+              "children": [
+                {
+                  "type": "image",
+                  "props": {
+                    "image": "wp-content/uploads/deco-element.png",
+                    "animation": "parallax",
+                    "parallax_y": "-60,60",
+                    "parallax_opacity": "0.6,1",
+                    "parallax_easing": "0.5",
+                    "parallax_breakpoint": "m"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

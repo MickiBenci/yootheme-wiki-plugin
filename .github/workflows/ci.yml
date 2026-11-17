@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Manifests are valid JSON
+        run: |
+          jq empty .claude-plugin/plugin.json
+          jq empty .claude-plugin/marketplace.json
+          test "$(jq -r .version .claude-plugin/plugin.json)" = "$(jq -r '.plugins[0].version' .claude-plugin/marketplace.json)"
+
+      - name: Skills have name and description frontmatter
+        run: |
+          for f in skills/*/SKILL.md; do
+            grep -q '^name: ' "$f" && grep -q '^description: ' "$f" || { echo "bad frontmatter: $f"; exit 1; }
+          done
+
+      - name: Validator regression tests
+        run: bash tests/run.sh
+
+      - name: Wiki lint
+        run: bash scripts/lint-wiki.sh
+
+      - name: No raw sources committed
+        run: test ! -e raw

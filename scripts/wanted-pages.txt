@@ -1,0 +1,6 @@
+# Wiki pages that are linked on purpose but not written yet ("wanted" pages).
+# scripts/lint-wiki.sh reports any other link to a missing page as an error.
+concepts/custom-css-boundary
+concepts/el-classes
+concepts/styling-hierarchy
+elements/row

@@ -1,0 +1,34 @@
+name: YOOtheme behaviour observation
+description: Report how YOOtheme Pro actually behaves — a correction or a new fact for the knowledge base
+labels: [observation]
+body:
+  - type: textarea
+    id: observation
+    attributes:
+      label: What you observed
+      description: The behaviour, in your own words. What did you expect, what happened?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: YOOtheme Pro version
+      placeholder: "5.0.53"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options: [WordPress, Joomla]
+  - type: textarea
+    id: evidence
+    attributes:
+      label: JSON / LESS involved
+      description: The smallest snippet that shows the behaviour. Remove client data.
+      render: json
+  - type: input
+    id: pages
+    attributes:
+      label: Affected wiki pages (if known)
+      placeholder: "wiki/props/link.md"

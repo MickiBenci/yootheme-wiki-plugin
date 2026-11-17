@@ -1,0 +1,13 @@
+{
+  "name": "yootheme-wiki",
+  "version": "1.0.0",
+  "description": "Generate importable YOOtheme Pro builder JSON (layouts, single elements, Customizer styles) from a verified knowledge base, and validate it before import.",
+  "author": {
+    "name": "MickiBenci",
+    "url": "https://github.com/MickiBenci"
+  },
+  "homepage": "https://github.com/MickiBenci/yootheme-wiki-plugin",
+  "repository": "https://github.com/MickiBenci/yootheme-wiki-plugin",
+  "license": "MIT",
+  "keywords": ["yootheme", "yootheme-pro", "uikit", "wordpress", "joomla", "page-builder", "json", "less"]
+}

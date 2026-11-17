@@ -1,0 +1,21 @@
+name: Bug report
+description: Generated JSON that fails to import, a validator false positive/negative, or a skill problem
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Include the exact import error message if there is one.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: The prompt you used, or the JSON file (remove client data).
+  - type: input
+    id: version
+    attributes:
+      label: YOOtheme Pro version and plugin version
+      placeholder: "YOOtheme Pro 5.0.53, plugin 1.0.0"

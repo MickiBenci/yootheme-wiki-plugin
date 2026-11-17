@@ -1,0 +1,14 @@
+# Local primary sources: copyrighted or private, never committed (see CLAUDE.md)
+raw/
+
+# OS / editor
+.DS_Store
+.obsidian/
+.vscode/
+.idea/
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Generated output from local testing
+*.tmp

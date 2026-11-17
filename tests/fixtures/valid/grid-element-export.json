@@ -1,0 +1,92 @@
+{
+  "type": "grid",
+  "props": {
+    "content_column_breakpoint": "m",
+    "filter_align": "left",
+    "filter_all": true,
+    "filter_grid_breakpoint": "m",
+    "filter_grid_width": "auto",
+    "filter_position": "top",
+    "filter_style": "tab",
+    "grid_column_gap": "medium",
+    "grid_default": "1",
+    "grid_medium": "5",
+    "grid_row_gap": "medium",
+    "grid_small": "2",
+    "image_align": "top",
+    "image_grid_breakpoint": "m",
+    "image_grid_width": "1-2",
+    "image_svg_color": "emphasis",
+    "item_animation": true,
+    "lightbox_bg_close": true,
+    "link_style": "default",
+    "link_text": "Read more",
+    "margin_bottom": "default",
+    "margin_top": "default",
+    "meta_align": "above-title",
+    "meta_element": "div",
+    "meta_style": "text-meta",
+    "panel_padding": "default",
+    "panel_style": "card-default",
+    "show_content": true,
+    "show_hover_image": true,
+    "show_hover_video": true,
+    "show_image": false,
+    "show_link": false,
+    "show_meta": true,
+    "show_title": true,
+    "show_video": true,
+    "title_align": "top",
+    "title_color": "emphasis",
+    "title_element": "h3",
+    "title_grid_breakpoint": "m",
+    "title_grid_width": "1-2",
+    "title_hover_style": "reset",
+    "title_style": "h4"
+  },
+  "children": [
+    {
+      "type": "grid_item",
+      "props": {
+        "title": "Reds and pinks",
+        "meta": "Ruby, pink tourmaline, rose quartz",
+        "content": "<p>Love, passion, emotional healing and warmth.</p>"
+      }
+    },
+    {
+      "type": "grid_item",
+      "props": {
+        "title": "Blues",
+        "meta": "Sapphire, aquamarine, lapis lazuli",
+        "content": "<p>Peace, calm, truth and a clearer spiritual connection.</p>"
+      }
+    },
+    {
+      "type": "grid_item",
+      "props": {
+        "title": "Greens",
+        "meta": "Emerald, jade, malachite",
+        "content": "<p>Balance, inner growth, health and prosperity.</p>"
+      }
+    },
+    {
+      "type": "grid_item",
+      "props": {
+        "title": "Yellows and oranges",
+        "meta": "Citrine, imperial topaz",
+        "content": "<p>Joy, optimism, vitality and willpower.</p>"
+      }
+    },
+    {
+      "type": "grid_item",
+      "props": {
+        "title": "Clear and whites",
+        "meta": "Diamond, rock crystal, pearl",
+        "content": "<p>Purity, mental clarity and a bright new start.</p>"
+      }
+    }
+  ],
+  "modified": "2026-10-14T10:04:43.925Z",
+  "name": "Grid example",
+  "version": "5.0.51"
+}

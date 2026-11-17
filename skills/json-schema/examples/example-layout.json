@@ -1,0 +1,1379 @@
+{
+    "type": "layout",
+    "children": [
+        {
+            "name": "Hero",
+            "type": "section",
+            "props": {
+                "header_transparent": true,
+                "header_transparent_noplaceholder": true,
+                "header_transparent_text_color": "light",
+                "image_position": "center-center",
+                "padding": "none",
+                "padding_remove_bottom": true,
+                "padding_remove_top": true,
+                "style": "default",
+                "title_breakpoint": "xl",
+                "title_position": "top-left",
+                "title_rotation": "left",
+                "vertical_align": "middle",
+                "width": ""
+            },
+            "children": [
+                {
+                    "type": "row",
+                    "props": {
+                        "margin": "small",
+                        "margin_remove_bottom": true
+                    },
+                    "children": [
+                        {
+                            "type": "column",
+                            "props": {
+                                "image_position": "center-center",
+                                "position_sticky_breakpoint": "m",
+                                "width_medium": "1-1"
+                            },
+                            "children": [
+                                {
+                                    "type": "slideshow",
+                                    "props": {
+                                        "link_size": "large",
+                                        "link_style": "text",
+                                        "link_text": "Read more",
+                                        "margin": "default",
+                                        "meta_align": "below-title",
+                                        "meta_element": "div",
+                                        "meta_style": "text-meta",
+                                        "nav": "thumbnav",
+                                        "nav_align": "center",
+                                        "nav_breakpoint": "s",
+                                        "nav_position": "bottom-center",
+                                        "nav_position_margin": "medium",
+                                        "overlay_animation": "parallax",
+                                        "overlay_padding": "small",
+                                        "overlay_parallax_opacity": "0.4",
+                                        "overlay_position": "center",
+                                        "overlay_style": "overlay-primary",
+                                        "show_content": true,
+                                        "show_link": true,
+                                        "show_meta": true,
+                                        "show_thumbnail": true,
+                                        "show_title": true,
+                                        "slidenav": "default",
+                                        "slidenav_breakpoint": "s",
+                                        "slidenav_hover": true,
+                                        "slidenav_large": false,
+                                        "slidenav_margin": "medium",
+                                        "slidenav_outside_breakpoint": "xl",
+                                        "slideshow_animation": "push",
+                                        "slideshow_autoplay": true,
+                                        "slideshow_autoplay_pause": true,
+                                        "slideshow_height": "viewport",
+                                        "slideshow_min_height": 300,
+                                        "thumbnav_height": "75",
+                                        "thumbnav_svg_color": "emphasis",
+                                        "thumbnav_width": "100",
+                                        "title_element": "h3"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "slideshow_item",
+                                            "props": {
+                                                "content": "",
+                                                "image": "wp-content/uploads/placeholder-1.jpg",
+                                                "link_text": "TRAIN WITH US",
+                                                "media_overlay": "rgba(0, 0, 0, 0.44)",
+                                                "title": ""
+                                            }
+                                        },
+                                        {
+                                            "type": "slideshow_item",
+                                            "props": {
+                                                "image": "wp-content/uploads/placeholder-2.jpg",
+                                                "media_overlay": "rgba(0, 0, 0, 0.44)",
+                                                "title": ""
+                                            }
+                                        },
+                                        {
+                                            "type": "slideshow_item",
+                                            "props": {
+                                                "image": "wp-content/uploads/placeholder-3.jpg",
+                                                "link_text": "EMS",
+                                                "media_overlay": "rgba(0, 0, 0, 0.44)",
+                                                "title": ""
+                                            }
+                                        },
+                                        {
+                                            "type": "slideshow_item",
+                                            "props": {
+                                                "image": "wp-content/uploads/placeholder-4.jpg",
+                                                "image_alt": "recovery room",
+                                                "link_text": "RECOVERY",
+                                                "title": ""
+                                            }
+                                        },
+                                        {
+                                            "type": "slideshow_item",
+                                            "props": {
+                                                "image": "wp-content/uploads/placeholder-5.jpg",
+                                                "meta": "",
+                                                "title": ""
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "props": {
+                "animation": "slide-left-small",
+                "animation_delay": "100",
+                "image_position": "center-center",
+                "preserve_color": true,
+                "style": "primary",
+                "title_breakpoint": "xl",
+                "title_position": "top-left",
+                "title_rotation": "left",
+                "vertical_align": "middle",
+                "width": "default"
+            },
+            "children": [
+                {
+                    "type": "row",
+                    "props": {
+                        "layout": "1-2,1-2"
+                    },
+                    "children": [
+                        {
+                            "type": "column",
+                            "props": {
+                                "image_position": "center-center",
+                                "position_sticky_breakpoint": "m",
+                                "width_medium": "1-2"
+                            },
+                            "children": [
+                                {
+                                    "type": "headline",
+                                    "props": {
+                                        "class": "tm-eyebrow",
+                                        "content": "Private studio · Strength · Recovery · Private Gym",
+                                        "title_element": "h2"
+                                    }
+                                },
+                                {
+                                    "type": "headline",
+                                    "props": {
+                                        "content": "<span class=\"uk-light\">TRAINING BUILT AROUND</span> <br><span class=\"uk-text-primary\">THE TIME YOU <br><span class=\"uk-light\">REALLY</span> HAVE</span>",
+                                        "title_element": "h2",
+                                        "title_style": "heading-large"
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "props": {
+                                        "class": "uk-light",
+                                        "column_breakpoint": "m",
+                                        "content": "Private personal training studio.\nStrength, Recovery, Private Gym.",
+                                        "margin": "default",
+                                        "text_style": "lead"
+                                    }
+                                },
+                                {
+                                    "type": "button",
+                                    "props": {
+                                        "grid_column_gap": "small",
+                                        "grid_row_gap": "small",
+                                        "margin": "default"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "button_item",
+                                            "props": {
+                                                "button_style": "primary",
+                                                "content": "Book your trial week",
+                                                "icon_align": "left",
+                                                "link": "contact/"
+                                            }
+                                        },
+                                        {
+                                            "type": "button_item",
+                                            "props": {
+                                                "button_style": "default",
+                                                "content": "Explore services",
+                                                "icon_align": "left",
+                                                "link": "services/"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "column",
+                            "props": {
+                                "image_position": "center-center",
+                                "position_sticky_breakpoint": "m",
+                                "width_medium": "1-2"
+                            },
+                            "children": [
+                                {
+                                    "type": "image",
+                                    "props": {
+                                        "image": "wp-content/uploads/placeholder-6.jpg",
+                                        "image_border": "rounded",
+                                        "image_height": 800,
+                                        "image_svg_color": "emphasis",
+                                        "image_width": 667,
+                                        "margin": "default"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "props": {
+                "animation": "scale-up",
+                "animation_delay": "100",
+                "css": ".el-section{\nbackground: var(--brand-accent);\n}",
+                "image_position": "center-center",
+                "style": "default",
+                "title_breakpoint": "xl",
+                "title_position": "top-left",
+                "title_rotation": "left",
+                "vertical_align": "middle",
+                "width": "default"
+            },
+            "children": [
+                {
+                    "type": "row",
+                    "children": [
+                        {
+                            "type": "column",
+                            "props": {
+                                "image_position": "center-center",
+                                "position_sticky_breakpoint": "m"
+                            },
+                            "children": [
+                                {
+                                    "type": "grid",
+                                    "props": {
+                                        "block_align": "center",
+                                        "content_column_breakpoint": "m",
+                                        "filter_align": "left",
+                                        "filter_all": true,
+                                        "filter_grid_breakpoint": "m",
+                                        "filter_grid_width": "auto",
+                                        "filter_position": "top",
+                                        "filter_style": "tab",
+                                        "grid_default": "2",
+                                        "grid_divider": true,
+                                        "grid_medium": "4",
+                                        "icon_width": 80,
+                                        "image_align": "top",
+                                        "image_grid_breakpoint": "m",
+                                        "image_grid_width": "1-2",
+                                        "image_svg_color": "emphasis",
+                                        "item_animation": true,
+                                        "link_style": "default",
+                                        "link_text": "Read more",
+                                        "margin": "default",
+                                        "maxwidth": "2xlarge",
+                                        "meta_align": "below-title",
+                                        "meta_color": "secondary",
+                                        "meta_element": "div",
+                                        "meta_margin": "remove",
+                                        "meta_style": "text-small",
+                                        "show_content": true,
+                                        "show_image": true,
+                                        "show_link": true,
+                                        "show_meta": true,
+                                        "show_title": true,
+                                        "text_align": "center",
+                                        "title_align": "top",
+                                        "title_element": "h3",
+                                        "title_font_family": "primary",
+                                        "title_grid_breakpoint": "m",
+                                        "title_grid_width": "1-2",
+                                        "title_hover_style": "reset",
+                                        "title_style": "h1"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "grid_item",
+                                            "props": {
+                                                "meta": "m² of space",
+                                                "title": "300"
+                                            }
+                                        },
+                                        {
+                                            "type": "grid_item",
+                                            "props": {
+                                                "meta": "clients coached",
+                                                "title": "1000+"
+                                            }
+                                        },
+                                        {
+                                            "type": "grid_item",
+                                            "props": {
+                                                "meta": "active members",
+                                                "title": "100+"
+                                            }
+                                        },
+                                        {
+                                            "type": "grid_item",
+                                            "props": {
+                                                "meta": "Google rating",
+                                                "title": "4.9"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "props": []
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "props": {
+                "animation": "slide-top-small",
+                "animation_delay": "100",
+                "image_position": "center-center",
+                "style": "default",
+                "title_breakpoint": "xl",
+                "title_position": "top-left",
+                "title_rotation": "left",
+                "vertical_align": "middle",
+                "width": "default"
+            },
+            "children": [
+                {
+                    "type": "row",
+                    "props": {
+                        "layout": "1-2,1-2"
+                    },
+                    "children": [
+                        {
+                            "type": "column",
+                            "props": {
+                                "image_position": "center-center",
+                                "position_sticky_breakpoint": "m",
+                                "width_medium": "1-2"
+                            },
+                            "children": [
+                                {
+                                    "type": "image",
+                                    "props": {
+                                        "image": "wp-content/uploads/placeholder-7.jpg",
+                                        "image_border": "rounded",
+                                        "image_height": 1000,
+                                        "image_svg_color": "emphasis",
+                                        "image_width": 1000,
+                                        "margin": "default"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "column",
+                            "props": {
+                                "image_position": "center-center",
+                                "position_sticky_breakpoint": "m",
+                                "width_medium": "1-2"
+                            },
+                            "children": [
+                                {
+                                    "type": "headline",
+                                    "props": {
+                                        "class": "tm-eyebrow",
+                                        "content": "About us",
+                                        "title_element": "h2"
+                                    }
+                                },
+                                {
+                                    "type": "headline",
+                                    "props": {
+                                        "content": "SINCE\n2016",
+                                        "title_element": "h2",
+                                        "title_style": "heading-medium"
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "props": {
+                                        "column_breakpoint": "m",
+                                        "content": "<p>A method built on three pillars: <strong><em>time, personalisation, an exclusive space</em></strong>. A team of certified trainers guides every session.</p>",
+                                        "margin": "default"
+                                    }
+                                },
+                                {
+                                    "type": "list",
+                                    "props": {
+                                        "column_breakpoint": "m",
+                                        "image_align": "left",
+                                        "image_svg_color": "emphasis",
+                                        "image_vertical_align": true,
+                                        "list_element": "ul",
+                                        "list_horizontal_separator": ", ",
+                                        "list_marker": "hyphen",
+                                        "list_marker_color": "primary",
+                                        "list_style": "divider",
+                                        "list_type": "vertical",
+                                        "show_image": true,
+                                        "show_link": true
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "list_item",
+                                            "props": {
+                                                "content": "<p><strong>Time:</strong> we respect yours and give you quality back</p>"
+                                            }
+                                        },
+                                        {
+                                            "type": "list_item",
+                                            "props": {
+                                                "content": "<p><strong>Personalisation:</strong> every programme is built around you</p>"
+                                            }
+                                        },
+                                        {
+                                            "type": "list_item",
+                                            "props": {
+                                                "content": "<p><strong>Exclusive space:</strong> a private studio — just you, your trainer and your workout.</p>"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "button",
+                                    "props": {
+                                        "grid_column_gap": "small",
+                                        "grid_row_gap": "small",
+                                        "margin": "default"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "button_item",
+                                            "props": {
+                                                "button_style": "primary",
+                                                "content": "Learn more",
+                                                "icon_align": "left",
+                                                "link": "about/"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "props": {
+                "animation": "fade",
+                "image_position": "center-center",
+                "style": "muted",
+                "title_breakpoint": "xl",
+                "title_position": "top-left",
+                "title_rotation": "left",
+                "vertical_align": "middle",
+                "width": "default"
+            },
+            "children": [
+                {
+                    "type": "row",
+                    "children": [
+                        {
+                            "type": "column",
+                            "props": {
+                                "image_position": "center-center",
+                                "position_sticky_breakpoint": "m"
+                            },
+                            "children": [
+                                {
+                                    "type": "headline",
+                                    "props": {
+                                        "class": "tm-eyebrow",
+                                        "content": "Our services",
+                                        "text_align": "center",
+                                        "title_element": "h2"
+                                    }
+                                },
+                                {
+                                    "type": "headline",
+                                    "props": {
+                                        "content": "THREE SERVICES.<br />ONE METHOD.",
+                                        "margin_remove_top": true,
+                                        "text_align": "center",
+                                        "title_element": "h2",
+                                        "title_style": "heading-medium"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "props": []
+                },
+                {
+                    "type": "row",
+                    "children": [
+                        {
+                            "type": "column",
+                            "props": {
+                                "image_position": "center-center",
+                                "position_sticky_breakpoint": "m"
+                            },
+                            "children": [
+                                {
+                                    "type": "grid",
+                                    "props": {
+                                        "animation": "scale-up",
+                                        "class": ".tm-card-grid",
+                                        "content_column_breakpoint": "m",
+                                        "css": ".el-item{\n    position:relative;\n}\n\n.el-meta{\n    position: absolute;\n  top: 0px;\n  left: 14px;\n  background: var(--brand-accent);\n  color: var(--brand-primary);\n  font-family: var(--font-body);\n  font-size: 10px;\n  font-weight: 700;\n  letter-spacing: 0.12em;\n  text-transform: uppercase;\n  padding: 4px 12px;\n  border-radius: 40px;\n}",
+                                        "filter_align": "left",
+                                        "filter_all": true,
+                                        "filter_grid_breakpoint": "m",
+                                        "filter_grid_width": "auto",
+                                        "filter_position": "top",
+                                        "filter_style": "tab",
+                                        "grid_default": "1",
+                                        "grid_medium": "3",
+                                        "icon_width": 80,
+                                        "image_align": "top",
+                                        "image_grid_breakpoint": "m",
+                                        "image_grid_width": "1-2",
+                                        "image_svg_color": "emphasis",
+                                        "image_transition": "scale-up",
+                                        "image_transition_border": false,
+                                        "item_animation": true,
+                                        "link_style": "text",
+                                        "link_text": "Read more",
+                                        "margin": "default",
+                                        "meta_align": "below-title",
+                                        "meta_element": "div",
+                                        "meta_style": "text-meta",
+                                        "panel_image_no_padding": true,
+                                        "panel_link": true,
+                                        "panel_padding": "small",
+                                        "panel_style": "card-default",
+                                        "show_content": true,
+                                        "show_image": true,
+                                        "show_link": true,
+                                        "show_meta": true,
+                                        "show_title": true,
+                                        "title_align": "top",
+                                        "title_element": "h3",
+                                        "title_grid_breakpoint": "m",
+                                        "title_grid_width": "1-2",
+                                        "title_hover_style": "reset"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "grid_item",
+                                            "props": {
+                                                "content": "<ul class=\"tm-feat-list\">\n<li>Muscle tone and body recomposition</li>\n<li>Low impact on back and joints</li>\n<li>A dedicated trainer at your side</li>\n</ul>",
+                                                "image": "wp-content/uploads/placeholder-8.jpg",
+                                                "link": "services/strength/",
+                                                "link_aria_label": "Discover Strength",
+                                                "link_text": "Discover Strength",
+                                                "meta": "STRENGTH TRAINING",
+                                                "title": "A FULL WORKOUT IN TWENTY MINUTES."
+                                            }
+                                        },
+                                        {
+                                            "type": "grid_item",
+                                            "props": {
+                                                "content": "<ul class=\"tm-feat-list\">\n<li>Faster recovery between sessions</li>\n<li>Reduced muscle soreness</li>\n<li>Suitable for complete beginners</li>\n</ul>",
+                                                "image": "wp-content/uploads/placeholder-9.jpg",
+                                                "link": "services/recovery/",
+                                                "link_aria_label": "Discover Strength",
+                                                "link_text": "Discover Recovery",
+                                                "meta": "Recovery",
+                                                "title": "30 MINUTES, FULL-BODY RECOVERY"
+                                            }
+                                        },
+                                        {
+                                            "type": "grid_item",
+                                            "props": {
+                                                "content": "<ul class=\"tm-feat-list\">\n<li>25 m² with rack, bench, dumbbells and bike</li>\n<li>Booking only — the space is yours alone</li>\n<li>Three plans: Elite, Open, 1-to-1</li>\n</ul>",
+                                                "image": "wp-content/uploads/placeholder-9.jpg",
+                                                "link": "services/private-gym/",
+                                                "link_aria_label": "Discover Private Gym",
+                                                "link_text": "Discover Private Gym",
+                                                "meta": "Private Gym",
+                                                "title": "YOUR PRIVATE GYM, BY APPOINTMENT."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "props": []
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "props": {
+                "image": "wp-content/uploads/placeholder-10.jpg",
+                "image_effect": "fixed",
+                "image_position": "center-center",
+                "image_size": "cover",
+                "media_overlay": "rgba(0, 0, 0, 0.84)",
+                "preserve_color": true,
+                "style": "primary",
+                "title_breakpoint": "xl",
+                "title_position": "top-left",
+                "title_rotation": "left",
+                "vertical_align": "middle",
+                "width": "default"
+            },
+            "children": [
+                {
+                    "type": "row",
+                    "props": {
+                        "class": "uk-light"
+                    },
+                    "children": [
+                        {
+                            "type": "column",
+                            "props": {
+                                "image_position": "center-center",
+                                "position_sticky_breakpoint": "m"
+                            },
+                            "children": [
+                                {
+                                    "type": "headline",
+                                    "props": {
+                                        "content": "QUESTIONS?<br />Write to us.",
+                                        "text_align": "center",
+                                        "title_element": "h2",
+                                        "title_style": "heading-medium"
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "props": {
+                                        "block_align": "center",
+                                        "column_breakpoint": "m",
+                                        "content": "Visit the studio or book a free introductory session.",
+                                        "margin": "default",
+                                        "maxwidth": "large",
+                                        "text_align": "center",
+                                        "text_color": "muted",
+                                        "text_style": "lead"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "row",
+                    "children": [
+                        {
+                            "type": "column",
+                            "props": {
+                                "image_position": "center-center",
+                                "position_sticky_breakpoint": "m"
+                            },
+                            "children": [
+                                {
+                                    "type": "button",
+                                    "props": {
+                                        "grid_column_gap": "small",
+                                        "grid_row_gap": "small",
+                                        "margin": "default",
+                                        "text_align": "center"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "button_item",
+                                            "props": {
+                                                "button_style": "primary",
+                                                "content": "Contact us",
+                                                "icon_align": "left",
+                                                "link": "contact/"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "props": []
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "props": {
+                "animation": "fade",
+                "image_position": "center-center",
+                "style": "muted",
+                "title_breakpoint": "xl",
+                "title_position": "top-left",
+                "title_rotation": "left",
+                "vertical_align": "middle",
+                "width": "default"
+            },
+            "children": [
+                {
+                    "type": "row",
+                    "children": [
+                        {
+                            "type": "column",
+                            "props": {
+                                "image_position": "center-center",
+                                "position_sticky_breakpoint": "m"
+                            },
+                            "children": [
+                                {
+                                    "type": "headline",
+                                    "props": {
+                                        "class": "tm-eyebrow",
+                                        "content": "Our equipment",
+                                        "text_align": "center",
+                                        "title_element": "h2"
+                                    }
+                                },
+                                {
+                                    "type": "headline",
+                                    "props": {
+                                        "content": "PROFESSIONAL<br>\nEQUIPMENT",
+                                        "margin_remove_top": true,
+                                        "text_align": "center",
+                                        "title_element": "h2",
+                                        "title_style": "heading-medium"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "props": []
+                },
+                {
+                    "type": "row",
+                    "children": [
+                        {
+                            "type": "column",
+                            "props": {
+                                "image_position": "center-center",
+                                "position_sticky_breakpoint": "m"
+                            },
+                            "children": [
+                                {
+                                    "type": "grid",
+                                    "props": {
+                                        "animation": "scale-up",
+                                        "class": ".tm-card-grid",
+                                        "content_column_breakpoint": "m",
+                                        "css": ".el-image{\n    width: 68px;\n    height: 68px;\n    background: rgba(46, 196, 182, 0.1);\n    border-radius: 50%;\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    margin-bottom: 22px;\n}",
+                                        "filter_align": "left",
+                                        "filter_all": true,
+                                        "filter_grid_breakpoint": "m",
+                                        "filter_grid_width": "auto",
+                                        "filter_position": "top",
+                                        "filter_style": "tab",
+                                        "grid_default": "1",
+                                        "grid_medium": "3",
+                                        "icon_color": "primary",
+                                        "icon_width": "40",
+                                        "image_align": "top",
+                                        "image_grid_breakpoint": "m",
+                                        "image_grid_width": "1-2",
+                                        "image_svg_color": "emphasis",
+                                        "image_transition": "scale-up",
+                                        "image_transition_border": false,
+                                        "item_animation": true,
+                                        "link_style": "text",
+                                        "link_text": "Read more",
+                                        "margin": "default",
+                                        "meta_align": "below-title",
+                                        "meta_element": "div",
+                                        "meta_style": "text-meta",
+                                        "panel_image_no_padding": true,
+                                        "panel_link": true,
+                                        "panel_padding": "small",
+                                        "show_content": true,
+                                        "show_image": true,
+                                        "show_link": true,
+                                        "show_meta": true,
+                                        "show_title": true,
+                                        "text_align": "center",
+                                        "title_align": "top",
+                                        "title_element": "h3",
+                                        "title_grid_breakpoint": "m",
+                                        "title_grid_width": "1-2",
+                                        "title_hover_style": "reset"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "grid_item",
+                                            "props": {
+                                                "content": "Professional-grade equipment used by rehabilitation centres and sports teams.",
+                                                "icon": "bolt",
+                                                "image": "",
+                                                "title": "STRENGTH"
+                                            }
+                                        },
+                                        {
+                                            "type": "grid_item",
+                                            "props": {
+                                                "content": "Guided recovery sessions that combine mobility, breathing and heat therapy in 30 minutes.",
+                                                "icon": "heart",
+                                                "image": "",
+                                                "title": "RECOVERY"
+                                            }
+                                        },
+                                        {
+                                            "type": "grid_item",
+                                            "props": {
+                                                "content": "Rack, bench, dumbbells, bike and a functional area — in 25 m² reserved just for you.",
+                                                "icon": "user",
+                                                "image": "",
+                                                "title": "PRIVATE GYM"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "props": []
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "props": {
+                "animation": "slide-top-small",
+                "animation_delay": "100",
+                "image_position": "center-center",
+                "overlap": false,
+                "preserve_color": true,
+                "style": "primary",
+                "title_breakpoint": "xl",
+                "title_position": "top-left",
+                "title_rotation": "left",
+                "vertical_align": "middle",
+                "width": "default"
+            },
+            "children": [
+                {
+                    "type": "row",
+                    "children": [
+                        {
+                            "type": "column",
+                            "props": {
+                                "image_position": "center-center",
+                                "position_sticky_breakpoint": "m"
+                            },
+                            "children": [
+                                {
+                                    "type": "headline",
+                                    "props": {
+                                        "class": "tm-eyebrow",
+                                        "content": "Testimonials",
+                                        "text_align": "center",
+                                        "title_element": "h2"
+                                    }
+                                },
+                                {
+                                    "type": "headline",
+                                    "props": {
+                                        "class": "uk-light",
+                                        "content": "WHAT OUR<br>\nCLIENTS SAY",
+                                        "margin_remove_top": true,
+                                        "text_align": "center",
+                                        "title_element": "h2",
+                                        "title_style": "heading-medium"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "props": []
+                },
+                {
+                    "type": "row",
+                    "children": [
+                        {
+                            "type": "column",
+                            "props": {
+                                "image_position": "center-center",
+                                "position_sticky_breakpoint": "m"
+                            },
+                            "children": [
+                                {
+                                    "type": "headline",
+                                    "props": {
+                                        "content": "4.9",
+                                        "margin_remove_bottom": true,
+                                        "text_align": "center",
+                                        "title_color": "primary",
+                                        "title_element": "h2",
+                                        "title_font_family": "primary",
+                                        "title_style": "heading-xlarge"
+                                    }
+                                },
+                                {
+                                    "type": "headline",
+                                    "props": {
+                                        "content": "★★★★★",
+                                        "css": ".el-element{\n        color: #f4c430;\n    font-size: 22px;\n    letter-spacing: 2px;\n    margin: 6px 0;\n    display: block;\n}",
+                                        "margin_remove_top": true,
+                                        "text_align": "center",
+                                        "title_element": "h2",
+                                        "title_style": "h4"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "props": []
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "props": {
+                "animation": "slide-bottom-small",
+                "animation_delay": "150",
+                "image_effect": "fixed",
+                "image_position": "center-center",
+                "padding": "small",
+                "preserve_color": false,
+                "style": "default",
+                "title_breakpoint": "xl",
+                "title_position": "top-left",
+                "title_rotation": "left",
+                "vertical_align": "middle",
+                "width": "default"
+            },
+            "children": [
+                {
+                    "type": "row",
+                    "children": [
+                        {
+                            "type": "column",
+                            "props": {
+                                "image_position": "center-center",
+                                "position_sticky_breakpoint": "m"
+                            },
+                            "children": [
+                                {
+                                    "type": "headline",
+                                    "props": {
+                                        "class": "tm-eyebrow",
+                                        "content": "Partners",
+                                        "text_align": "center",
+                                        "title_element": "h2"
+                                    }
+                                },
+                                {
+                                    "type": "headline",
+                                    "props": {
+                                        "block_align": "center",
+                                        "content": "We work with the best brands in the industry.",
+                                        "margin_remove_top": true,
+                                        "maxwidth": "xlarge",
+                                        "text_align": "center",
+                                        "title_element": "h2",
+                                        "title_style": "heading-medium"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "props": []
+                },
+                {
+                    "type": "row",
+                    "children": [
+                        {
+                            "type": "column",
+                            "props": {
+                                "image_position": "center-center",
+                                "position_sticky_breakpoint": "m"
+                            },
+                            "children": [
+                                {
+                                    "type": "panel-slider",
+                                    "props": {
+                                        "content_column_breakpoint": "m",
+                                        "css": ".el-item{\ndisplay:flex;\n    align-items:center;\n    justify-content:center;\n}",
+                                        "icon_width": 80,
+                                        "image_align": "bottom",
+                                        "image_grid_breakpoint": "m",
+                                        "image_grid_width": "1-2",
+                                        "image_margin": "small",
+                                        "image_svg_color": "emphasis",
+                                        "link_style": "default",
+                                        "link_text": "Read more",
+                                        "margin": "default",
+                                        "meta_align": "below-title",
+                                        "meta_element": "div",
+                                        "meta_style": "text-meta",
+                                        "nav": "dotnav",
+                                        "nav_align": "center",
+                                        "nav_breakpoint": "s",
+                                        "panel_card_offset": true,
+                                        "panel_image_no_padding": false,
+                                        "panel_match": true,
+                                        "panel_padding": "small",
+                                        "panel_style": "card-default",
+                                        "position": "relative",
+                                        "show_content": false,
+                                        "show_image": true,
+                                        "show_link": false,
+                                        "show_meta": false,
+                                        "show_title": false,
+                                        "slidenav": "outside",
+                                        "slidenav_breakpoint": "xl",
+                                        "slidenav_margin": "medium",
+                                        "slidenav_outside_breakpoint": "xl",
+                                        "slider_autoplay": true,
+                                        "slider_autoplay_pause": true,
+                                        "slider_center": false,
+                                        "slider_gap": "default",
+                                        "slider_width": "fixed",
+                                        "slider_width_default": "1-1",
+                                        "slider_width_medium": "1-3",
+                                        "text_align": "center",
+                                        "title_align": "top",
+                                        "title_element": "h3",
+                                        "title_grid_breakpoint": "m",
+                                        "title_grid_width": "1-2",
+                                        "title_hover_style": "reset"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "panel-slider_item",
+                                            "props": {
+                                                "image": "wp-content/uploads/placeholder-11.jpg",
+                                                "link": "https://example.com/",
+                                                "panel_style": "card-default"
+                                            }
+                                        },
+                                        {
+                                            "type": "panel-slider_item",
+                                            "props": {
+                                                "image": "wp-content/uploads/placeholder-12.jpg",
+                                                "panel_style": "card-default"
+                                            }
+                                        },
+                                        {
+                                            "type": "panel-slider_item",
+                                            "props": {
+                                                "image": "wp-content/uploads/placeholder-13.jpg",
+                                                "link": "https://example.com/",
+                                                "panel_style": "card-default"
+                                            }
+                                        },
+                                        {
+                                            "type": "panel-slider_item",
+                                            "props": {
+                                                "image": "wp-content/uploads/placeholder-14.jpg",
+                                                "link": "https://example.com/",
+                                                "panel_style": "card-default"
+                                            }
+                                        },
+                                        {
+                                            "type": "panel-slider_item",
+                                            "props": {
+                                                "image": "wp-content/uploads/placeholder-15.jpg",
+                                                "link": "https://example.com/",
+                                                "panel_style": "card-default"
+                                            }
+                                        },
+                                        {
+                                            "type": "panel-slider_item",
+                                            "props": {
+                                                "image": "wp-content/uploads/placeholder-16.jpg",
+                                                "link": "https://example.com/",
+                                                "panel_style": "card-default"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "props": []
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "props": {
+                "animation": "slide-left-small",
+                "animation_delay": "150",
+                "image_position": "center-center",
+                "style": "muted",
+                "title_breakpoint": "xl",
+                "title_position": "top-left",
+                "title_rotation": "left",
+                "vertical_align": "middle",
+                "width": "default"
+            },
+            "children": [
+                {
+                    "type": "row",
+                    "children": [
+                        {
+                            "type": "column",
+                            "props": {
+                                "image_position": "center-center",
+                                "position_sticky_breakpoint": "m"
+                            },
+                            "children": [
+                                {
+                                    "type": "headline",
+                                    "props": {
+                                        "class": "tm-eyebrow",
+                                        "content": "From the blog",
+                                        "text_align": "center",
+                                        "title_element": "h2"
+                                    }
+                                },
+                                {
+                                    "type": "headline",
+                                    "props": {
+                                        "content": "RESOURCES AND<br>\nINSIGHTS",
+                                        "margin_remove_top": true,
+                                        "text_align": "center",
+                                        "title_element": "h2",
+                                        "title_style": "heading-medium"
+                                    }
+                                },
+                                {
+                                    "type": "button",
+                                    "props": {
+                                        "grid_column_gap": "small",
+                                        "grid_row_gap": "small",
+                                        "margin": "default",
+                                        "text_align": "center"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "button_item",
+                                            "props": {
+                                                "button_style": "default",
+                                                "content": "Go to the blog",
+                                                "icon_align": "left",
+                                                "link": "blog/"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "props": []
+                },
+                {
+                    "type": "row",
+                    "children": [
+                        {
+                            "type": "column",
+                            "props": {
+                                "image_position": "center-center",
+                                "position_sticky_breakpoint": "m"
+                            },
+                            "children": [
+                                {
+                                    "type": "grid",
+                                    "props": {
+                                        "animation": "scale-up",
+                                        "class": ".tm-card-grid",
+                                        "content_column_breakpoint": "m",
+                                        "css": ".el-item{\n    position:relative;\n}\n\n.el-meta{\n    position: absolute;\n  top: 0px;\n  left: 14px;\n  background: var(--brand-accent);\n  color: var(--brand-primary);\n  font-family: var(--font-body);\n  font-size: 10px;\n  font-weight: 700;\n  letter-spacing: 0.12em;\n  text-transform: uppercase;\n  padding: 4px 12px;\n  border-radius: 40px;\n}",
+                                        "filter_align": "left",
+                                        "filter_all": true,
+                                        "filter_grid_breakpoint": "m",
+                                        "filter_grid_width": "auto",
+                                        "filter_position": "top",
+                                        "filter_style": "tab",
+                                        "grid_default": "1",
+                                        "grid_medium": "3",
+                                        "icon_width": 80,
+                                        "image_align": "top",
+                                        "image_grid_breakpoint": "m",
+                                        "image_grid_width": "1-2",
+                                        "image_svg_color": "emphasis",
+                                        "image_transition": "scale-up",
+                                        "image_transition_border": false,
+                                        "item_animation": true,
+                                        "link_style": "text",
+                                        "link_text": "Read more",
+                                        "margin": "default",
+                                        "meta_align": "below-title",
+                                        "meta_element": "div",
+                                        "meta_style": "text-meta",
+                                        "panel_image_no_padding": true,
+                                        "panel_link": true,
+                                        "panel_padding": "small",
+                                        "panel_style": "card-default",
+                                        "show_content": true,
+                                        "show_image": true,
+                                        "show_link": true,
+                                        "show_meta": true,
+                                        "show_title": true,
+                                        "title_align": "top",
+                                        "title_element": "h3",
+                                        "title_grid_breakpoint": "m",
+                                        "title_grid_width": "1-2",
+                                        "title_hover_style": "reset"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "grid_item",
+                                            "props": {
+                                                "link_text": "Read"
+                                            },
+                                            "source": {
+                                                "query": {
+                                                    "name": "posts.customPosts",
+                                                    "arguments": {
+                                                        "terms": [],
+                                                        "category_operator": "IN",
+                                                        "post_tag_operator": "IN",
+                                                        "users": [],
+                                                        "users_operator": "IN",
+                                                        "offset": 0,
+                                                        "limit": 3,
+                                                        "order": "date",
+                                                        "order_direction": "DESC"
+                                                    }
+                                                },
+                                                "props": {
+                                                    "title": {
+                                                        "filters": {
+                                                            "search": ""
+                                                        },
+                                                        "name": "title"
+                                                    },
+                                                    "meta": {
+                                                        "filters": {
+                                                            "search": ""
+                                                        },
+                                                        "arguments": {
+                                                            "separator": ", ",
+                                                            "show_link": true,
+                                                            "link_style": ""
+                                                        },
+                                                        "name": "categoryString"
+                                                    },
+                                                    "content": {
+                                                        "filters": {
+                                                            "search": "",
+                                                            "limit": 100
+                                                        },
+                                                        "arguments": {
+                                                            "show_intro_text": true
+                                                        },
+                                                        "name": "content"
+                                                    },
+                                                    "image": {
+                                                        "filters": {
+                                                            "search": ""
+                                                        },
+                                                        "name": "featuredImage.url"
+                                                    },
+                                                    "link": {
+                                                        "filters": {
+                                                            "search": ""
+                                                        },
+                                                        "name": "link"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "props": []
+                },
+                {
+                    "type": "row",
+                    "children": [
+                        {
+                            "type": "column",
+                            "props": {
+                                "image_position": "center-center",
+                                "position_sticky_breakpoint": "m"
+                            },
+                            "children": [
+                                {
+                                    "type": "headline",
+                                    "props": {
+                                        "class": "tm-eyebrow",
+                                        "content": "Newsletter",
+                                        "text_align": "center",
+                                        "title_element": "h2"
+                                    }
+                                },
+                                {
+                                    "type": "headline",
+                                    "props": {
+                                        "content": "STAY UP TO DATE",
+                                        "margin_remove_top": true,
+                                        "text_align": "center",
+                                        "title_element": "h2",
+                                        "title_style": "heading-medium"
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "props": {
+                                        "block_align": "center",
+                                        "column_breakpoint": "m",
+                                        "content": "Articles, tips and studio news — straight to your inbox.",
+                                        "margin": "default",
+                                        "maxwidth": "large",
+                                        "text_align": "center"
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "props": {
+                                        "block_align": "center",
+                                        "column_breakpoint": "m",
+                                        "content": "[contact-form-7 id=\"123\" title=\"Newsletter\"]",
+                                        "margin": "default",
+                                        "maxwidth": "large"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "props": {
+                        "css": ".el-row{\n    margin-top:100px;\n}"
+                    }
+                }
+            ]
+        }
+    ],
+    "version": "4.3.8",
+    "props": [],
+    "modified": "2026-05-22T09:29:54.690Z",
+    "name": "Home"
+}
